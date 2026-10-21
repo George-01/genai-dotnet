@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e7ccd21a-bfe4-4139-8641-e1c65168343d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OllamaSharp" Version="5.4.30" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.10.0" />
+    <PackageReference Include="Microsoft.Extensions.DataIngestion" Version="10.10.0-preview.1.26459.2" />
+    <PackageReference Include="Microsoft.Extensions.DataIngestion.Markdig" Version="10.10.0-preview.1.26459.2" />
+    <PackageReference Include="PdfPig" Version="0.1.12" />
+    <PackageReference Include="Microsoft.ML.Tokenizers.Data.Cl100kBase" Version="1.0.1" />
+    <PackageReference Include="Microsoft.ML.Tokenizers.Data.O200kBase" Version="1.0.1" />
+    <PackageReference Include="System.Linq.AsyncEnumerable" Version="10.0.9" />
+    <PackageReference Include="CommunityToolkit.VectorData.SqliteVec" Version="1.0.1-preview" />
+  </ItemGroup>
+
+</Project>
